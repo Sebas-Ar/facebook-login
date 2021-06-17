@@ -6,10 +6,10 @@
 /* strings */
 
 /* var nombre = 'sebastian' */
-let nombre = 'sebastian'
+/* let nombre = 'sebastian'
 let apellido = "arias"
 let nombreCompletoCopy = 'juan ' + nombre + ' ' + apellido + ' duarte'
-let nombreCompleto = `juan ${nombre} ${apellido} duarte`
+let nombreCompleto = `juan ${nombre} ${apellido} duarte` */
 
 /* console.log(nombre, apellido) */
 
@@ -98,10 +98,67 @@ let listaDeNumeros = [1, 2, 3, 4, [5, 6, 7]]
 
 /* console.log(listaDeNumeros.length) */
 
-/* for (let i = 0; i < listaDeNumeros.length ; i++) {
-    console.log(listaDeNumeros[i])
+/* funcion */
+
+/* si se pone como parametro una funcion, se denominara callback */
+/* function saludar(depedida) {
+
+    depedida()
+
+}
+
+saludar(function despedida() {
+    console.log('adios')
+}) */
+
+/* devolver valores */
+
+/* function sumar(numero1, numero2) {
+
+    let suma = numero1 + numero2
+
+    return suma
+}
+
+let sumaTotal = sumar(1,2)
+
+console.log(sumaTotal) */
+
+
+let arregloDeFrutas = ['manzana', 'pera', 'papaya']
+
+/* arrow function */
+
+/* const callback = (value, index, array) => {
+    console.log(value, index, array)
+}
+
+
+arregloDeFrutas.forEach(callback)
+
+
+function nameFunction() {
+
+}
+
+const nameArrowFunction = () => {
+
 } */
 
-/* listaDeNumeros.forEach((value, index, array) => {
-    console.log(array)
-}) */
+/* const array1 = ['a', 'b', 'c'];
+
+console.log(array1)
+
+array1.shift()
+
+console.log(array1) */
+/* 
+let nombre = 'sebastian arias duarte'
+
+
+console.log(nombre.split('')) */
+
+
+const saludar = () => {
+    console.log('hola mundo')
+}
